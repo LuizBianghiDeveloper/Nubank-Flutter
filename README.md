@@ -1,16 +1,71 @@
-# Nubank
+# Clone da Interface do Nubank com Flutter
 
-Interface do Nubank
+Este projeto é uma recriação da interface do aplicativo Nubank utilizando o framework Flutter. O objetivo é replicar a UI (Interface do Usuário) do Nubank com fidelidade, destacando a habilidade de trabalhar com componentes visuais e de layout do Flutter.
 
-## Getting Started
+## 🔧 Funcionalidades
 
-This project is a starting point for a Flutter application.
+- Interface responsiva que se adapta a diferentes tamanhos de tela.
+- Layout em scroll com cards interativos, semelhante à interface principal do Nubank.
+- Componentes personalizáveis, como o menu inferior e botões flutuantes.
+- Simulação de animações suaves e interações, recriando a experiência do usuário do app real.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tecnologias Utilizadas
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter**: Framework para desenvolvimento mobile multiplataforma.
+- **Dart**: Linguagem de programação usada no Flutter.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Como Executar o Projeto
+
+1. Clone o repositório para sua máquina local:
+
+   ```bash
+   git clone https://github.com/LuizBianghiDeveloper/Nubank-Flutter.git
+   ```
+
+2. Navegue até o diretório do projeto:
+
+   ```bash
+   cd nome-do-repositorio
+   ```
+
+3. Instale as dependências do projeto:
+
+   ```bash
+   flutter pub get
+   ```
+
+4. Conecte seu dispositivo físico ou emulador e execute o aplicativo:
+
+   ```bash
+   flutter run
+   ```
+
+## 💡 Próximos Passos
+
+- Implementar a funcionalidade de transição entre diferentes páginas do app.
+- Melhorar a fidelidade das animações para replicar melhor a experiência do Nubank.
+- Adicionar mais interatividade e funções semelhantes ao app original, como simulações de transações e notificações.
+- Refatoração para otimização de código e separação em módulos.
+
+## 📝 Contribuindo
+
+Contribuições são sempre bem-vindas! Siga os passos abaixo para contribuir:
+
+1. Faça um fork do projeto.
+2. Crie uma nova branch para a sua feature ou correção de bug:
+   
+   ```bash
+   git checkout -b feature/nova-feature
+   ```
+
+3. Faça suas alterações e commit:
+
+   ```bash
+   git commit -m "Adiciona nova funcionalidade: nova-feature"
+   ```
+
+4. Envie as suas alterações:
+
+   ```bash
+   git push origin feature/nova-feature
+   ```
